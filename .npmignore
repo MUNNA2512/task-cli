@@ -1,0 +1,42 @@
+# Development and test files
+.github
+.vscode
+test.js
+.gitignore
+.travis.yml
+.qodo
+
+# Documentation
+assets/
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+
+# Git related
+.git
+.gitattributes
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Source control
+.hg
+.svn
+CVS
+
+# CI configuration
+.circleci/
+.github/
+.travis.yml
+appveyor.yml
+azure-pipelines.yml
+
+# Editor directories and files
+.idea
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db 

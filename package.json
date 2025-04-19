@@ -1,0 +1,42 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "A powerful command-line tool for managing your daily tasks efficiently",
+  "main": "index.js",
+  "bin": {
+    "task": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "cli",
+    "task",
+    "todo",
+    "productivity",
+    "task-management",
+    "command-line",
+    "terminal",
+    "nodejs"
+  ],
+  "author": "MUNNA2512",
+  "homepage": "https://github.com/MUNNA2512/task-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUNNA2512/task-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MUNNA2512/task-cli/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5",
+    "conf": "^10.2.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+} 
